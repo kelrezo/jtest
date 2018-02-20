@@ -18,18 +18,7 @@ public class JavaAppTestTest {
     
     public JavaAppTestTest() {
     }
-    
-    @Before
-    public void setUp() {
-    }
-    
-    @After
-    public void tearDown() {
-    }
-
-    /**
-     * Test of add method, of class JavaAppTest.
-     */
+ 
     @Test
     public void testAdd() {
         System.out.println("add");
@@ -43,13 +32,13 @@ public class JavaAppTestTest {
         //fail("The test case is a prototype.");
     }
     @Test
-    public void testAdd2() {
-        System.out.println("add");
+    public void testSub() {
+        System.out.println("sub");
         int x = 0;
         int y = 0;
         JavaAppTest instance = new JavaAppTest();
-        int expResult = 1;
-        int result = instance.add(x, y);
+        int expResult = 0;
+        int result = instance.sub(x, y);
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
         //fail("The test case is a prototype.");
