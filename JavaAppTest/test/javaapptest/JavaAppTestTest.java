@@ -21,7 +21,7 @@ public class JavaAppTestTest {
  
     @Test
     public void testAdd() {
-        System.out.println("add");
+        System.out.println("add1");
         int x = 1;
         int y = 0;
         JavaAppTest instance = new JavaAppTest();
@@ -33,7 +33,7 @@ public class JavaAppTestTest {
     }
     @Test
     public void testSub() {
-        System.out.println("sub");
+        System.out.println("sub1");
         int x = 0;
         int y = 0;
         JavaAppTest instance = new JavaAppTest();
