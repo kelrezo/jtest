@@ -33,7 +33,7 @@ public class JavaAppTestTest {
     }
     @Test
     public void testSub() {
-        System.out.println("sub1");
+        System.out.println("subb");
         int x = 0;
         int y = 0;
         JavaAppTest instance = new JavaAppTest();
