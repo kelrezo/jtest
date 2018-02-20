@@ -22,10 +22,10 @@ public class JavaAppTestTest {
     @Test
     public void testAdd() {
         System.out.println("add");
-        int x = 0;
+        int x = 1;
         int y = 0;
         JavaAppTest instance = new JavaAppTest();
-        int expResult = 0;
+        int expResult = 1;
         int result = instance.add(x, y);
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
