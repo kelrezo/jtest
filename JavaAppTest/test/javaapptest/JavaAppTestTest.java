@@ -42,5 +42,16 @@ public class JavaAppTestTest {
         // TODO review the generated test code and remove the default call to fail.
         //fail("The test case is a prototype.");
     }
-    
+    @Test
+    public void testAdd2() {
+        System.out.println("add");
+        int x = 0;
+        int y = 0;
+        JavaAppTest instance = new JavaAppTest();
+        int expResult = 1;
+        int result = instance.add(x, y);
+        assertEquals(expResult, result);
+        // TODO review the generated test code and remove the default call to fail.
+        //fail("The test case is a prototype.");
+    }
 }
